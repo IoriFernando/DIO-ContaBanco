@@ -1,5 +1,5 @@
 # DIO-ContaBanco
-Atividade proposta pela plataforma DIO no Santander Bootcamp 2024, onde é proposto os seguintes passos:
+Atividade proposta pela plataforma DIO no Santander Bootcamp 2024, usando POO e Scanner.
 
 # DIO - Trilha Java Básico
 www.dio.me
