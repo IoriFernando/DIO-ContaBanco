@@ -31,11 +31,6 @@ public class ContaTerminal {
 					+ " conta "+ conta1.getConta() + " e seu saldo "+conta1.getSaldo() +" já está disponível para saque.");
 	
 		
-		
-		
-		
-		
-		
 		sc.close();
 	}
 
