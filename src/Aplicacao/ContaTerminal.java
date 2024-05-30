@@ -1,8 +1,9 @@
-package Aplicacao;
+
+package aplicacao;
 
 import java.util.Scanner;
 
-import Entidades.ContaPessoal;
+import entidades.ContaPessoal;
 
 public class ContaTerminal {
 
@@ -10,11 +11,11 @@ public class ContaTerminal {
 
 		Scanner sc = new Scanner(System.in);
 	
-		System.out.println("Cadastro de conta: \nDigite o numero da sua conta:");
+		System.out.println("Cadastro de conta \nDigite o numero da sua conta:");
 		int conta = sc.nextInt();
 
 		sc.nextLine();
-		System.out.println("Digite o número da Agência !");
+		System.out.println("Digite o número da Agência:");
 		String agencia = sc.nextLine();
 		
 		System.out.println("Digite seu nome:");
@@ -27,7 +28,7 @@ public class ContaTerminal {
 		ContaPessoal conta1 = new ContaPessoal(conta, agencia,nome, saldo);
 				
 		System.out.println("Olá, "+conta1.getNomeDoCliente()
-					+ " obrigado por criar uma conta em nosso banco, sua agência é , "+ conta1.getAgencia()
+					+ " obrigado por criar uma conta em nosso banco, sua agência é, "+ conta1.getAgencia()
 					+ " conta "+ conta1.getConta() + " e seu saldo "+conta1.getSaldo() +" já está disponível para saque.");
 	
 		

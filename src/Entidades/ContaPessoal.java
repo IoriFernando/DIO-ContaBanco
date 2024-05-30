@@ -1,4 +1,5 @@
-package Entidades;
+
+package entidades;
 
 public class ContaPessoal {
 
